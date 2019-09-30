@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "444301573720",
+    "firebase_url": "https://proyectoeducativoandroid.firebaseio.com",
+    "project_id": "proyectoeducativoandroid",
+    "storage_bucket": "proyectoeducativoandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444301573720:android:9ed6de459b059ec3",
+        "android_client_info": {
+          "package_name": "com.elias.www.sistemaencuesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444301573720-7suiara5p7vutsqnaj5nd60u9ijo1588.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elias.www.sistemaencuesta",
+            "certificate_hash": "619da4959dc75a6faa3f84837b1dbca167831106"
+          }
+        },
+        {
+          "client_id": "444301573720-01gbvq4r67bcvoqj2jc3hccv8ieui58i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAG8YL8RCgCCw7I9QQaVlsupNY59Jt1f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444301573720-01gbvq4r67bcvoqj2jc3hccv8ieui58i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

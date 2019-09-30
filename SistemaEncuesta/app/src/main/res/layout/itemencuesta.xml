@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RegistroEncuestaXML"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="4dip">
+
+    <ImageView
+        android:id="@+id/imgForm"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/ic_form" />
+
+    <TextView
+        android:id="@+id/TVITEM_Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TVITEM_Comentario"
+        android:layout_marginStart="0dp"
+        android:text="TVITEM_Titulo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_alignLeft="@+id/TVITEM_Comentario"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/TVITEM_Comentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/imgForm"
+        android:text="TVITEM_Comentario" />
+
+    <TextView
+        android:id="@+id/TVITEM_Autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVITEM_Titulo"
+        android:layout_alignStart="@+id/TVITEM_Comentario"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="21dp"
+        android:text="TVITEM_Autor"
+        android:layout_alignLeft="@+id/TVITEM_Comentario"
+        android:layout_marginLeft="1dp" />
+
+</RelativeLayout>
